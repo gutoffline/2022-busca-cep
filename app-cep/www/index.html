@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Busca CEP</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>BUSCA ENDEREÇO</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="form-label">CEP</label>
+                <input id="cep" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="pesquisar" class="btn btn-primary">PESQUISAR</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="endereco-completo"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
